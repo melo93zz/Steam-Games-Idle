@@ -60,6 +60,7 @@ try {
 const package = require('./package.json');
 const method = require('./app/methods.js');
 const config = require('./app/Settings/config.js');
+const keeprunning = require('./keeprunning.js');
 const v = package.version; 
 
 // Basic display on app start
